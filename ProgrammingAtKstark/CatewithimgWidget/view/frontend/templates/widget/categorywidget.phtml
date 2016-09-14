@@ -1,0 +1,28 @@
+<?php
+    $categories = $this->getCategoryCollection();
+    $categoryHelper = $this->getCategoryHelper();
+?>
+<div class="widget block block-static-block cwiw" id="catewithimg">
+    <div class="block-content">
+        <div class="content-heading">
+            <h2 class="title"><?php echo $this->getMainTitle(); ?></h2>
+            <p class="info"><?php echo $this->getTagLine(); ?></p>
+        </div>
+        <div class="row">
+        <?php
+        foreach($categories as $category):
+            $cat = $this->getCategorymodel($category->getId());
+            $image = $cat->getImageUrl();
+        ?>
+            <?php if($image != null): ?>
+                <div class="col-md-4">
+                    <a class="category_name" href="<?php echo $cat->getUrl(); ?>">
+                       <img src="<?php echo $image; ?>" class="img-responsive category_image" alt="<?php echo $cat->getName(); ?>" />
+                        <h3><span><?php echo $cat->getName(); ?></span></h3>
+                    </a>
+                </div>
+            <?php endif; ?>
+        <?php endforeach; ?>
+        </div>
+    </div>
+</div>

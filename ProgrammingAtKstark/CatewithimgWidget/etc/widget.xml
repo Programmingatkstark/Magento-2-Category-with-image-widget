@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+	<widget id="programmingatkstark_catewithimgwidget" class="ProgrammingAtKstark\CatewithimgWidget\Block\Widget\CatewithimgWidget">
+		<label translate="true">Category List with image Widget</label>
+		<description>Store Default 1st level Category List Widget</description>
+		<parameters>
+            <parameter name="blocktitle" xsi:type="text"  visible="true" required="true" sort_order="1">
+                <label translate="true">Block Title</label>
+            </parameter>
+            <parameter name="tagline" xsi:type="text"  visible="true" required="true" sort_order="2">
+                <label translate="true">Tag Line</label>
+            </parameter>
+			<parameter name="parentcat"  xsi:type="multiselect"  visible="true" sort_order="3" source_model="ProgrammingAtKstark\CatewithimgWidget\Model\Config\Source\Categorylist">
+                <label translate="true">Select Categories (Any three) </label>
+                <description translate="true">Category must have image uploaded</description>
+            </parameter>
+		</parameters>
+	</widget>
+</widgets>

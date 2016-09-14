@@ -1,0 +1,25 @@
+.cwiw{
+    width: 100%;
+    clear: both;
+    float: none;
+    text-align: center;
+}
+.cwiw .row{
+    margin-bottom: 20px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.cwiw .row:before,
+.cwiw .row:after{
+    display: table;
+    content: " ";
+}
+
+.cwiw .row .col-md-4{
+    width: 33.33333333%;
+    float: left;
+}
+
+.cwiw a:hover{
+    text-decoration: none;
+}
