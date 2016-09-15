@@ -7,8 +7,7 @@
 </ul>
 
 ### How to use this widget
-[![](https://i.ytimg.com/vi/RLN1A200MII/hqdefault.jpg)](https://www.youtube.com/watch?v=RLN1A200MII)
-
+[![ScreenShot](https://i.ytimg.com/vi/RLN1A200MII/hqdefault.jpg)](http://youtu.be/RLN1A200MII)
 
 ###Mannual Installation Instructions
 Go to Magento2 Project 
