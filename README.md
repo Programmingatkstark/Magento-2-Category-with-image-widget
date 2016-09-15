@@ -7,7 +7,8 @@
 </ul>
 
 ### How to use this widget
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RLN1A200MII" frameborder="0" allowfullscreen></iframe>
+[![](https://i.ytimg.com/vi/RLN1A200MII/hqdefault.jpg)](https://www.youtube.com/watch?v=RLN1A200MII)
+
 
 ###Mannual Installation Instructions
 Go to Magento2 Project 
