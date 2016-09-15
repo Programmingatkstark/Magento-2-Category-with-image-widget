@@ -6,6 +6,9 @@
 <li>Only top level categories</li>
 </ul>
 
+### How to use this widget
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RLN1A200MII" frameborder="0" allowfullscreen></iframe>
+
 ###Mannual Installation Instructions
 Go to Magento2 Project 
 <strong>root/app/code </strong> <em> (create <strong> code</strong> folder if not exist)</em>
@@ -33,7 +36,7 @@ Magento2
 
 
 ###Enable this widget
-to Enable this module simply follow these steps:
+to Enable this widget simply follow these steps:
 <ul>
     <li><code>php bin/magento setup:upgrade</code></li>
     <li><code>php bin/magento cache:flush</code></li>
