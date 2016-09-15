@@ -7,7 +7,10 @@
 </ul>
 
 ### How to use this widget
+Link : https://youtu.be/RLN1A200MII
+
 [![ScreenShot](https://i.ytimg.com/vi/RLN1A200MII/hqdefault.jpg)](http://youtu.be/RLN1A200MII)
+
 
 ###Mannual Installation Instructions
 Go to Magento2 Project 
